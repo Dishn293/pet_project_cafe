@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
+
+body {
+  font-family: Roboto, serif;
+  background: linear-gradient(100deg, #d34545 0%, #b55ebb 100%);
+}
+
+p {
+  color: black;
+  font-size: 18px;
+}
+
+.nav-link {
+  color: white;
+}
+
+.navbar .nav-link.active {
+  color: rgb(116, 116, 116);
+}
+
+.navbar-brand img {
+  width: 45px;
+}
+
+.navbar-toggler {
+  background-color: rgb(116, 116, 116);
+}
+
+.side-bar {
+  color: black;
+  background: linear-gradient(270deg, #d34545 0%, #8c4f91 100%);
+}
+
+.card {
+  background: linear-gradient(90deg, #b63d4f 0%, #9a41a0 100%);
+}
+
+.card a {
+  text-decoration: none;
+  color: black;
+}
+
+.slide-text,
+.footer-text {
+  color: black;
+  margin: auto auto;
+}
+
+footer {
+  background: linear-gradient(100deg, #b63d4f 0%, #9a41a0 100%);
+}
+
+footer a {
+  text-decoration: none;
+}
+
+.media-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Начало анимации */
+
+.img-anim {
+  animation: call-phone 2s ease 0s infinite normal forwards;
+}
+
+.news_center {
+  text-align: center;
+  color: #6A1B9A
+}
+
+@keyframes call-phone {
+  0% {
+    animation-timing-function: ease-out;
+    transform: scale(1);
+    transform-origin: center center;
+  }
+
+  10% {
+    animation-timing-function: ease-in;
+    transform: scale(0.91);
+  }
+
+  17% {
+    animation-timing-function: ease-out;
+    transform: scale(0.98);
+  }
+
+  33% {
+    animation-timing-function: ease-in;
+    transform: scale(0.87);
+  }
+
+  45% {
+    animation-timing-function: ease-out;
+    transform: scale(1);
+  }
+}
+
+/* Конец анимации */
+
+@media (max-width: 750px) {
+  .carousel-indicators {
+    display: none;
+  }
+}
+
+
+@media (max-width: 850px) {
+  .map {
+    height: 70vh;
+    width: 100%;
+  }
+}
