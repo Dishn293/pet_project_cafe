@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="source/styles/katalog-style.css">
+
+    <style>
+        .card:hover{
+            transform: translateY(-10px) scale(1.05);
+            box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+        }
+
+        .card {
+            animation: myAnim 2s ease 0s 1 normal forwards;
+            width: 30%;
+            margin: 1em;
+            margin-bottom: 1em;
+            text-align: center;
+            border-radius: 30px;
+            background-color: #ffffff59;
+            transition: all 0.3s ease; 
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+        }
+    </style>
+
+    <title>Горячие блюда</title>
+</head>
+
+<body>
+
+    <div class="nav-bar">
+        <a href="main.html"><img style="width: 6em; height: 5em;" src="source/images/logo.png" alt="логотип"></a>
+        <a class="text-main" href="index.html">Главная</a>
+        <a class="text-katalog" href="katalog.html">Каталог</a>
+        <a class="text-articles" href="articles.html">Статьи</a>
+        <img style="width: 80px; height: 100%;" src="source/images/bonsai.png" alt="image">
+    </div>
+
+    <div class="main-container">
+
+        <div class="bgvideo">
+            <video  preload="auto" poster="source/other files/загрузка.gif" autoplay muted loop>
+                <source src="source/other files/sushi.webm" type="video/webm">
+            </video>
+
+            <!-- <div class="effect"></div> -->
+
+            <div class="video-text">
+                <p style="text-align: center;">さくら</p><br>
+                <p style="text-align: center;">Согревающие душу горячие блюда!</p>
+            </div>
+        </div>
+
+        <h1>🔥 Терияки, темпура, гриль и многое другое — каждое блюдо приготовлено с любовью и пряностями, которые
+            раскрывают весь вкус японской кухни. Идеально для сытного обеда или ужина</h1>
+
+        <div class="catalog">
+
+            <div class="card">
+
+                <img src="source/images/set-rollov.jpg" alt="Мочи" class="card-img">
+                <h3 class="card-title">Сеты</h3>
+                <p class="card-description">Идеальные наборы суши и роллов, собранные для тех, кто хочет попробовать
+                    максимум вкусов</p>
+                <p class="card-price">от 650 до 1200 ₽</p>
+                <a href="goods/se.html"><button class="card-button">Добавить в корзину</button></a>
+
+            </div>
+
+            <div class="card">
+
+                <img src="source/images/set-rollov.jpg" alt="Мочи" class="card-img">
+                <h3 class="card-title">Сеты</h3>
+                <p class="card-description">Идеальные наборы суши и роллов, собранные для тех, кто хочет попробовать
+                    максимум вкусов</p>
+                <p class="card-price">от 650 до 1200 ₽</p>
+                <a href="goods/se.html"><button class="card-button">Добавить в корзину</button></a>
+
+            </div>
+
+            <div class="card">
+
+                <img src="source/images/set-rollov.jpg" alt="Мочи" class="card-img">
+                <h3 class="card-title">Сеты</h3>
+                <p class="card-description">Идеальные наборы суши и роллов, собранные для тех, кто хочет попробовать
+                    максимум вкусов</p>
+                <p class="card-price">от 650 до 1200 ₽</p>
+                <a href="goods/se.html"><button class="card-button">Добавить в корзину</button></a>
+
+            </div>
+
+            <div class="card">
+
+                <img src="source/images/set-rollov.jpg" alt="Мочи" class="card-img">
+                <h3 class="card-title">Сеты</h3>
+                <p class="card-description">Идеальные наборы суши и роллов, собранные для тех, кто хочет попробовать
+                    максимум вкусов</p>
+                <p class="card-price">от 650 до 1200 ₽</p>
+                <a href="goods/se.html"><button class="card-button">Добавить в корзину</button></a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="footer">
+        <div class="footer-column">
+            <p>Традиции Японии в каждом блюде</p>
+        </div>
+
+        <div class="footer-column">
+            <p>📍 ул. Цветочная, 27 , Москва, Россия</p>
+            <p>📞 +7 (495) 123-45-67</p>
+            <p>🕒 Часы работы : Пн-Вс, 10:00–22:00</p>
+        </div>
+
+        <div class="footer-column">
+            <a href="https://web.telegram.org/">Телеграм</a><br>
+            <a href="https://vk.com/">ВКонтакте</a><br>
+            <a href="https://www.instagram.com/">Инстраграм</a><br>
+        </div>
+
+        <div class="footer-bottom">
+            <p>© 2025 Кафе "Сакура". Все права защищены</p>
+        </div>
+
+    </div>
+
+</body>
+
+</html>
